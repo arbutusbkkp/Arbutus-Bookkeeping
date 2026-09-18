@@ -1,0 +1,11 @@
+:root{
+  /* Shadows are warm-tinted (green-black, never pure black) and low-contrast:
+     this brand reads as printed paper, not floating glass. */
+  --shadow-none:none;
+  --shadow-hairline:0 0 0 1px var(--border-hairline);
+  --shadow-sm:0 1px 2px rgba(14,31,26,.06),0 1px 1px rgba(14,31,26,.04);
+  --shadow-md:0 2px 6px rgba(14,31,26,.07),0 8px 20px -12px rgba(14,31,26,.14);
+  --shadow-lg:0 4px 12px rgba(14,31,26,.08),0 24px 48px -24px rgba(14,31,26,.22);
+  --shadow-inset-top:inset 0 1px 0 rgba(255,255,255,.7);
+  --shadow-lift-hover:0 6px 14px rgba(14,31,26,.10),0 28px 52px -28px rgba(14,31,26,.24);
+}

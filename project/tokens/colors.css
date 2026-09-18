@@ -1,0 +1,55 @@
+:root{
+  /* ---- Base palette: Grove green (from the logo's leaves and bars) ---- */
+  --green-900:#0C2415;--green-800:#123A20;--green-700:#1B5A2E;--green-600:#26763C;--green-500:#3E9152;--green-400:#6FB37F;--green-300:#A8D2B2;--green-200:#DCEDE0;--green-100:#EEF6F0;
+  /* ---- Base palette: Gold (the logo's arc) ---- */
+  --gold-900:#4A3510;--gold-700:#8A6A1E;--gold-600:#A67F22;--gold-500:#C09A35;--gold-400:#D4B46A;--gold-300:#E5CE9C;--gold-200:#F2E6C9;--gold-100:#FAF3E3;
+  /* ---- Base palette: Slate blue (the logo's bar caps) ---- */
+  --blue-800:#173A5C;--blue-700:#1F4F7E;--blue-600:#2C6BA8;--blue-300:#9CC0DF;--blue-100:#E6EFF7;
+  /* ---- Base palette: Paper / warm neutrals ---- */
+  --paper-000:#FFFFFF;--paper-050:#FAF8F3;--paper-100:#F3F1E9;--paper-200:#E7E4D9;--paper-300:#D4D0C3;
+  --ink-900:#17190F;--ink-700:#393C31;--ink-500:#5E6257;--ink-400:#85897D;--ink-300:#B1B4AA;
+  /* ---- Base palette: semantic hues ---- */
+  --success-600:#217A45;--success-100:#E2F0E7;
+  --warning-600:#B07818;--warning-100:#F8EEDB;
+  --danger-600:#B23B2B;--danger-100:#F9E5E1;
+  --info-600:var(--blue-600);--info-100:var(--blue-100);
+  --star-500:#E8B02A; /* Google-review gold; matches third-party widgets */
+
+  /* ---- Semantic aliases: surfaces ---- */
+  --surface-page:var(--paper-050);
+  --surface-alt:var(--paper-100);
+  --surface-card:var(--paper-000);
+  --surface-card-tint:var(--green-100);
+  --surface-inverse:var(--green-800);
+  --surface-accent:var(--green-700);
+  --surface-accent-soft:var(--gold-100);
+
+  /* ---- Semantic aliases: text ---- */
+  --text-body:var(--ink-900);
+  --text-muted:var(--ink-500);
+  --text-subtle:var(--ink-400);
+  --text-heading:var(--green-800);
+  --text-on-inverse:var(--paper-050);
+  --text-on-inverse-muted:var(--green-300);
+  --text-on-accent:#FFFFFF;
+  --text-link:var(--green-700);
+  --text-link-hover:var(--gold-700);
+
+  /* ---- Semantic aliases: lines & fields ---- */
+  --border-hairline:var(--paper-200);
+  --border-strong:var(--paper-300);
+  --border-inverse:rgba(250,248,243,.18);
+  --border-focus:var(--green-600);
+  --field-bg:var(--paper-000);
+  --field-border:var(--paper-300);
+  --field-placeholder:var(--ink-400);
+
+  /* ---- Semantic aliases: interactive ---- */
+  --action-primary:var(--green-700);
+  --action-primary-hover:var(--green-600);
+  --action-primary-active:var(--green-800);
+  --action-secondary:var(--green-700);
+  --action-secondary-hover:var(--green-600);
+  --focus-ring:0 0 0 3px var(--gold-200);
+  --mark-check:var(--gold-700);
+}

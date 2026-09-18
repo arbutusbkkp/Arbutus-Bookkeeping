@@ -1,0 +1,8 @@
+:root{
+  --radius-xs:3px;
+  --radius-sm:6px;    /* inputs, small chips */
+  --radius-md:10px;   /* buttons */
+  --radius-lg:14px;   /* cards */
+  --radius-xl:20px;   /* large panels, image frames */
+  --radius-pill:999px;/* badges, social icon buttons */
+}

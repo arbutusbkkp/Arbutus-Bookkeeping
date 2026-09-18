@@ -1,0 +1,35 @@
+/* Alternative theme scope. Put data-theme="harbour" on <html> to swap the whole
+   palette to the cooler, navy-led direction built from the logo's bar caps.
+   Grove (the default in colors.css) is the warm, green-and-gold direction. */
+[data-theme="harbour"]{
+  --surface-page:#F6F8FA;
+  --surface-alt:#EDF1F5;
+  --surface-card:#FFFFFF;
+  --surface-card-tint:var(--blue-100);
+  --surface-inverse:var(--blue-800);
+  --surface-accent:var(--blue-700);
+  --surface-accent-soft:var(--blue-100);
+
+  --text-body:#131A22;
+  --text-muted:#55606B;
+  --text-subtle:#7E8892;
+  --text-heading:var(--blue-800);
+  --text-on-inverse:#F6F8FA;
+  --text-on-inverse-muted:var(--blue-300);
+  --text-link:var(--blue-700);
+  --text-link-hover:var(--green-700);
+
+  --border-hairline:#DFE5EB;
+  --border-strong:#C6CFD8;
+  --border-inverse:rgba(246,248,250,.2);
+  --field-border:#C6CFD8;
+  --border-focus:var(--blue-600);
+
+  --action-primary:var(--blue-700);
+  --action-primary-hover:var(--blue-600);
+  --action-primary-active:var(--blue-800);
+  --action-secondary:var(--blue-700);
+  --action-secondary-hover:var(--blue-600);
+  --focus-ring:0 0 0 3px var(--blue-100);
+  --mark-check:var(--green-600);
+}
